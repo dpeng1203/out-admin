@@ -107,6 +107,7 @@
                 <el-table-column
                     prop="channel"
                     label="通道"
+                    show-overflow-tooltip
                     align="center"
                     width="100">
                 </el-table-column>
@@ -115,6 +116,12 @@
                     align="center"
                     label="金额"
                     width="80">
+                </el-table-column>
+                <el-table-column
+                    prop="msg"
+                    align="center"
+                    label="实际支付金额"
+                    width="100">
                 </el-table-column>
                 <el-table-column
                     prop="mch_charge"
@@ -583,7 +590,7 @@ export default {
            
     .table
         margin-top: 40px
-        width: 1415px
+        width: 1480px
         .block
             padding: 30px 0
             text-align: center 

@@ -257,10 +257,10 @@ export default {
             this.getList()
         },
         addAgent() {
-            if(this.form.owner_id === '' || this.form.owner_id === undefined) {
-                this.$message.error('请填写指定商户号！')
-                return
-            }
+            // if(this.form.owner_id === '' || this.form.owner_id === undefined) {
+            //     this.$message.error('请填写指定商户号！')
+            //     return
+            // }
             if(this.form.name === '') {
                 this.$message.error('请填写姓名！')
                 return

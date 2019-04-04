@@ -38,6 +38,10 @@
                 <span>{{data.money}}</span>
             </div>
             <div class="item">
+                <span class="name">实际支付金额：</span>
+                <span>{{data.msg}}</span>
+            </div>
+            <div class="item">
                 <span class="name">手续费：</span>
                 <span>{{data.mch_charge}}</span>
             </div>
